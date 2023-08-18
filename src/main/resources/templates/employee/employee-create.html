@@ -20,11 +20,11 @@
                 Welcome to Employee Registration Page
             </h2>
             <div class="card-body">
-                <form th:object="${employee}">
+                <form th:object="${employee}" th:action="@{/employee/insert}" method="post">
                     <div class="form-row">
                         <div class="form-group col-md-4">
                             <label for="inputEmail4">First Name</label>
-                            <input type="email" class="form-control" id="inputFirstName4" placeholder="First Name" th:field="*{firstName}">
+                            <input type="text" class="form-control" id="inputFirstName4" placeholder="First Name" th:field="*{firstName}">
                         </div>
                         <div class="form-group col-md-4">
                             <label for="inputPassword4">Last Name</label>
