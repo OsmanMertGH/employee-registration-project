@@ -1,4 +1,4 @@
-package com.cydeo.employeeregistrationproject;
+package com.cydeo.model;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
